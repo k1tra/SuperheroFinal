@@ -31,7 +31,7 @@ public class Superhero {
         return strength;
     }
 
-    public String toString(){
+    /*public String toString(){
         return ("Superhelten er "+name+superheroname+isHuman+creationYear+strength);
-    }
+    }*/
 }

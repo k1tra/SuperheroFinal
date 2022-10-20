@@ -29,6 +29,7 @@ public class Database {
                 System.out.println("Would you like to edit this hero?");
                 System.out.println("1: No");
                 System.out.println("2: Yes");
+                System.out.println("2: Yes");
                 Superhero hero = superhero;
                 int valg2 = sc2.nextInt();
                 if (valg2 == 2) {

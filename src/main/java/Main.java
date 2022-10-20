@@ -73,7 +73,11 @@ public class Main {
             // LISTE UDSKRIVES
             else if (valg == 5) {
                 System.out.println("Din liste over superhelte ser således ud:");
+                System.out.println(" ");
+                int i = 1;
                 for (Superhero superheroes : database.superheroes) {
+                    System.out.println("Helt nummer "+i);
+                    i++;
                     System.out.println("Rigtige navn: " + superheroes.getName());
                     System.out.println("Superheltenavn: " + superheroes.getSuperheroName());
                     // LØST MED EN IF ELSE, ER DER MON EN ANDEN GOD MÅDE AT GØRE DET PÅ?

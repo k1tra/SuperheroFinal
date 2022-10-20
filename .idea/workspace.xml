@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7a8336f-c578-4bb4-83c2-0af8d2918ebd" name="Changes" comment="Delopgave 2 opfyldt">
+    <list default="true" id="a7a8336f-c578-4bb4-83c2-0af8d2918ebd" name="Changes" comment="Man kan nu specifikt opdatere en helt vha eget menupunkt.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -35,17 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -65,7 +66,8 @@
       <updated>1665732326667</updated>
       <workItem from="1665732327936" duration="9408000" />
       <workItem from="1665990875763" duration="15178000" />
-      <workItem from="1666199456522" duration="1643000" />
+      <workItem from="1666199456522" duration="3179000" />
+      <workItem from="1666255820272" duration="9835000" />
     </task>
     <task id="LOCAL-00001" summary="Den udskriver menu og looper så længe valg = 1">
       <created>1665743303144</created>
@@ -81,7 +83,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665995809287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HAR GJORT SÅ MAN KAN FINDE EN HELT DEN FØRSTE HELT PÅ EN LSITE">
+      <created>1666201138078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666201138078</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lavet en edit-option på søgefunktionen. Den spørger til om man vil edit den hero man har søgt på og passer den hero man har søgt på videre til editHero hvis det er man trykker yes">
+      <created>1666257894677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666257894677</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Man kan nu specifikt opdatere en helt vha eget menupunkt.">
+      <created>1666261811305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666261811305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +124,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Den udskriver menu og looper så længe valg = 1" />
     <MESSAGE value="Delopgave 2 opfyldt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delopgave 2 opfyldt" />
+    <MESSAGE value="HAR GJORT SÅ MAN KAN FINDE EN HELT DEN FØRSTE HELT PÅ EN LSITE" />
+    <MESSAGE value="Lavet en edit-option på søgefunktionen. Den spørger til om man vil edit den hero man har søgt på og passer den hero man har søgt på videre til editHero hvis det er man trykker yes" />
+    <MESSAGE value="Man kan nu specifikt opdatere en helt vha eget menupunkt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Man kan nu specifikt opdatere en helt vha eget menupunkt." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

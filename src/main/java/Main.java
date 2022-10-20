@@ -60,6 +60,7 @@ public class Main {
                 String search = sc.next();
                database.searchSuperhero(search);
 
+
             }
             // LISTE UDSKRIVES
             else if (valg == 5) {

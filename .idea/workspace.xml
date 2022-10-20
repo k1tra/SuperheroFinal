@@ -67,7 +67,7 @@
       <workItem from="1665732327936" duration="9408000" />
       <workItem from="1665990875763" duration="15178000" />
       <workItem from="1666199456522" duration="3179000" />
-      <workItem from="1666255820272" duration="9835000" />
+      <workItem from="1666255820272" duration="15231000" />
     </task>
     <task id="LOCAL-00001" summary="Den udskriver menu og looper så længe valg = 1">
       <created>1665743303144</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666261811305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Man kan nu specifikt opdatere en helt vha eget menupunkt.">
+      <created>1666266674417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666266674417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

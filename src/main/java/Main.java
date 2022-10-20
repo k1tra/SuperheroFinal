@@ -1,8 +1,6 @@
 import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.ArrayList;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +13,9 @@ public class Main {
 
         int valg;
         Boolean isHuman = null;
+
+        // EXCEPTIONS
+
 
         do {
             System.out.println("1. Opret superhelt");
@@ -34,13 +35,13 @@ public class Main {
                 String superheroname = sc.next();
 
 
-                System.out.println("Er superhelten et menneske? yes/no");
+                System.out.println("Er superhelten et menneske? ja/nej");
                 String svar = sc.next();
                 switch (svar) {
-                    case "yes":
+                    case "ja":
                         isHuman = true;
                         break;
-                    case "no":
+                    case "nej":
                         isHuman = false;
                         break;
                     default:
@@ -60,8 +61,6 @@ public class Main {
                 System.out.println("Indtast navn/superheltenavn på den superhelt du ønsker at få vist");
                 String search = sc.next();
                database.searchSuperhero(search);
-
-
             }
             // ret i en helt
             else if(valg==3){

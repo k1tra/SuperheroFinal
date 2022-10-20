@@ -31,6 +31,23 @@ public class Superhero {
         return strength;
     }
 
+    // SETTERS
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setSuperheroname(String superheroname){
+        this.superheroname=superheroname;
+    }
+    public void setHuman(boolean isHuman){
+        this.isHuman=isHuman;
+    }
+    public void setCreationYear(int creationYear){
+        this.creationYear=creationYear;
+    }
+    public void setStrength(double strength){
+        this.strength=strength;
+    }
+
     /*public String toString(){
         return ("Superhelten er "+name+superheroname+isHuman+creationYear+strength);
     }*/

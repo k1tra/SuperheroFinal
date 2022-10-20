@@ -19,6 +19,7 @@ public class Main {
         do {
             System.out.println("1. Opret superhelt");
             System.out.println("2. Søg på specifik superhelt");
+            System.out.println("3. Opdater en helt");
             System.out.println("5. Se listen over dine superhelte");
             System.out.println("9. Afslut programmet");
 
@@ -62,6 +63,13 @@ public class Main {
 
 
             }
+            // ret i en helt
+            else if(valg==3){
+                System.out.println("Skriv navnet/superheltenavnet på den helt du gerne vil opdatere");
+                String search = sc.next();
+                database.editHero(search);
+
+            }
             // LISTE UDSKRIVES
             else if (valg == 5) {
                 System.out.println("Din liste over superhelte ser således ud:");
@@ -82,6 +90,6 @@ public class Main {
             } else if (valg == 9) {
                 System.out.println("Programmet afsluttes.");
             }
-        } while (valg == 1 || valg == 5 || valg == 2);
+        } while (valg == 1 || valg == 5 || valg == 2 || valg == 3);
     }
 }

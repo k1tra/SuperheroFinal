@@ -1,9 +1,11 @@
 import java.sql.SQLOutput;
+import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // try { afsluttes
         // databaseobjekt oprettes
         Database database = new Database();
 
@@ -60,10 +62,10 @@ public class Main {
                 // Skal finde ud af hvordan jeg tager det første søgeresultat (første index) og får denne skrevet ud.
                 System.out.println("Indtast navn/superheltenavn på den superhelt du ønsker at få vist");
                 String search = sc.next();
-               database.searchSuperhero(search);
+                database.searchSuperhero(search);
             }
             // ret i en helt
-            else if(valg==3){
+            else if (valg == 3) {
                 System.out.println("Skriv navnet/superheltenavnet på den helt du gerne vil opdatere");
                 String search = sc.next();
                 database.editHero(search);
@@ -75,7 +77,7 @@ public class Main {
                 System.out.println(" ");
                 int i = 1;
                 for (Superhero superheroes : database.superheroes) {
-                    System.out.println("Helt nummer "+i);
+                    System.out.println("Helt nummer " + i);
                     i++;
                     System.out.println("Rigtige navn: " + superheroes.getName());
                     System.out.println("Superheltenavn: " + superheroes.getSuperheroName());
@@ -95,4 +97,10 @@ public class Main {
             }
         } while (valg == 1 || valg == 5 || valg == 2 || valg == 3);
     }
+
+    // Kan man godt, men altså... :P
+        /*catch (InputMismatchException e) {
+            System.out.println("Der skete en fejl et sted");
+        }*/
+
 }
